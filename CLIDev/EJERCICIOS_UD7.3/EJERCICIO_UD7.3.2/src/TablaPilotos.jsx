@@ -69,7 +69,7 @@ const pilotos = [
         "nacionalidad": "Francia"
     },
 ];
-
+//cambiar a fetch la lectura del archivo json
 function TablaPilotos() {
     const [pagina, setPagina] = useState(0);
     const [pilotosPagina, setPilotosPagina] = useState([]);
