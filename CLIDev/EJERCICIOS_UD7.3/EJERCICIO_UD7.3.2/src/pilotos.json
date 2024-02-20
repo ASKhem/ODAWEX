@@ -1,0 +1,124 @@
+{
+    "pilotos": [
+        {
+          "nombre": "Lewis Hamilton",
+          "equipo": "Mercedes",
+          "numero": 44,
+          "nacionalidad": "Reino Unido"
+        },
+        {
+          "nombre": "Max Verstappen",
+          "equipo": "Red Bull Racing",
+          "numero": 33,
+          "nacionalidad": "Países Bajos"
+        },
+        {
+          "nombre": "Charles Leclerc",
+          "equipo": "Ferrari",
+          "numero": 16,
+          "nacionalidad": "Mónaco"
+        },
+        {
+          "nombre": "Fernando Alonso",
+          "equipo": "Aston Martin",
+          "numero": 14,
+          "nacionalidad": "España"
+        },
+        {
+          "nombre": "Valtteri Bottas",
+          "equipo": "Mercedes",
+          "numero": 77,
+          "nacionalidad": "Finlandia"
+        },
+        {
+          "nombre": "Daniel Ricciardo",
+          "equipo": "McLaren",
+          "numero": 3,
+          "nacionalidad": "Australia"
+        },
+        {
+          "nombre": "Sergio Pérez",
+          "equipo": "Red Bull Racing",
+          "numero": 11,
+          "nacionalidad": "México"
+        },
+        {
+          "nombre": "Carlos Sainz",
+          "equipo": "Ferrari",
+          "numero": 55,
+          "nacionalidad": "España"
+        },
+        {
+          "nombre": "Lando Norris",
+          "equipo": "McLaren",
+          "numero": 4,
+          "nacionalidad": "Reino Unido"
+        },
+        {
+          "nombre": "Pierre Gasly",
+          "equipo": "AlphaTauri",
+          "numero": 10,
+          "nacionalidad": "Francia"
+        },
+        {
+          "nombre": "Esteban Ocon",
+          "equipo": "Alpine",
+          "numero": 31,
+          "nacionalidad": "Francia"
+        },
+        {
+          "nombre": "Sebastian Vettel",
+          "equipo": "Aston Martin",
+          "numero": 5,
+          "nacionalidad": "Alemania"
+        },
+        {
+          "nombre": "Fernando Alonso",
+          "equipo": "Alpine",
+          "numero": 14,
+          "nacionalidad": "España"
+        },
+        {
+          "nombre": "Yuki Tsunoda",
+          "equipo": "AlphaTauri",
+          "numero": 22,
+          "nacionalidad": "Japón"
+        },
+        {
+          "nombre": "Kimi Räikkönen",
+          "equipo": "Alfa Romeo Racing",
+          "numero": 7,
+          "nacionalidad": "Finlandia"
+        },
+        {
+          "nombre": "Antonio Giovinazzi",
+          "equipo": "Alfa Romeo Racing",
+          "numero": 99,
+          "nacionalidad": "Italia"
+        },
+        {
+          "nombre": "Mick Schumacher",
+          "equipo": "Haas",
+          "numero": 47,
+          "nacionalidad": "Alemania"
+        },
+        {
+          "nombre": "Nikita Mazepin",
+          "equipo": "Haas",
+          "numero": 9,
+          "nacionalidad": "Rusia"
+        },
+        {
+          "nombre": "Nicholas Latifi",
+          "equipo": "Williams",
+          "numero": 6,
+          "nacionalidad": "Canadá"
+        },
+        {
+          "nombre": "George Russell",
+          "equipo": "Williams",
+          "numero": 63,
+          "nacionalidad": "Reino Unido"
+        }
+      ]
+  }
