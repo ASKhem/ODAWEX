@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form{
+    background-color: rgb(232, 244, 255);
+    padding: 30px;
+}
+
+input, select{
+    height: 3vh;
+    margin-bottom: 1vw;
+}
+
+button{
+    min-width: 5vw;
+    display: inherit;
+    align-items: inherit;
+}

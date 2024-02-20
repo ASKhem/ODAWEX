@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+select {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.team-data {
+    width: 200px;
+    border: 1px solid #000;
+    padding: 10px;
+}

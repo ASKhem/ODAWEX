@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Equipo1",
+        "PJ": 10,
+        "PG": 5,
+        "PP": 3,
+        "PE": 2
+    },
+    {
+        "nombre": "Equipo2",
+        "PJ": 12,
+        "PG": 6,
+        "PP": 4,
+        "PE": 2
+    },
+    {
+        "nombre": "Equipo3",
+        "PJ": 11,
+        "PG": 4,
+        "PP": 5,
+        "PE": 2
+    },
+    {
+        "nombre": "Equipo4",
+        "PJ": 13,
+        "PG": 7,
+        "PP": 4,
+        "PE": 2
+    },
+    {
+        "nombre": "Equipo5",
+        "PJ": 14,
+        "PG": 8,
+        "PP": 4,
+        "PE": 2
+    }
+]

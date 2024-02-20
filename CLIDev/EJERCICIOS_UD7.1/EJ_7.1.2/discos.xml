@@ -1,0 +1,63 @@
+<!-- Generados con IA -->
+<discos>
+    <disco>
+        <titulo>Dark Side of the Moon</titulo>
+        <artista>Pink Floyd</artista>
+        <genero>Rock</genero>
+        <año>1973</año>
+    </disco>
+    <disco>
+        <titulo>Thriller</titulo>
+        <artista>Michael Jackson</artista>
+        <genero>Pop</genero>
+        <año>1982</año>
+    </disco>
+    <disco>
+        <titulo>Kind of Blue</titulo>
+        <artista>Miles Davis</artista>
+        <genero>Jazz</genero>
+        <año>1959</año>
+    </disco>
+    <disco>
+        <titulo>The Blues Brothers</titulo>
+        <artista>The Blues Brothers</artista>
+        <genero>Blues</genero>
+        <año>1980</año>
+    </disco>
+    <disco>
+        <titulo>Random Access Memories</titulo>
+        <artista>Daft Punk</artista>
+        <genero>Electrónica</genero>
+        <año>2013</año>
+    </disco>
+    <disco>
+        <titulo>In the Aeroplane Over the Sea</titulo>
+        <artista>Neutral Milk Hotel</artista>
+        <genero>Indie</genero>
+        <año>1998</año>
+    </disco>
+    <disco>
+        <titulo>Legend</titulo>
+        <artista>Bob Marley &amp; The Wailers</artista>
+        <genero>Reggae</genero>
+        <año>1984</año>
+    </disco>
+    <disco>
+        <titulo>The Planets</titulo>
+        <artista>Gustav Holst</artista>
+        <genero>Clásica</genero>
+        <año>1916</año>
+    </disco>
+    <disco>
+        <titulo>Illmatic</titulo>
+        <artista>Nas</artista>
+        <genero>Hip-Hop</genero>
+        <año>1994</año>
+    </disco>
+    <disco>
+        <titulo>Fearless</titulo>
+        <artista>Taylor Swift</artista>
+        <genero>Country</genero>
+        <año>2008</año>
+    </disco>
+</discos>

@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+    background-image: url("https://images4.alphacoders.com/592/592367.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 98vh;
+}
+
+#banda {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 30%;
+    background-color: rgba(0, 89, 255, 0.7);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 999;
+}
+
+.bienvenida {
+    display: none;
+}
+
+#div1, #bienvenida {
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(250, 38, 38, 0.1);
+    margin-top: 25px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+#div1{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(208, 205, 247, 0.9);
+    max-width: 300px;
+}
+
+#bienvenida {
+    background-color: rgba(95, 132, 255, 0.9);
+    margin-bottom: 20px;
+    max-width: 600px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+input {
+    background-color: rgba(255, 62, 62, 0.7);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* #div2 {
+    margin-top: 20px;
+    margin-bottom: 100px;
+} */
+
+#mensaje {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: moverBanda 20s linear infinite;
+}
+
+@keyframes moverBanda {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 10px rgba(40, 37, 226, 0.5);
+    border-collapse: collapse;
+    border-radius: 15px;
+    background-color: rgba(208, 205, 247, 0.7);
+}
+
+img {
+    width: 150px; height: 170px;
+    box-shadow: 0px 0px 10px rgba(226, 37, 226, 0.5);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+td {
+    padding: 5px;
+}
+
+.icono {
+    width: 50px;
+    height: 50px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}

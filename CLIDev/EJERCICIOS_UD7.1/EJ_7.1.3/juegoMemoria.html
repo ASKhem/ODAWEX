@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" crossorigin="anonymous" />
+    <title>Juego de memoria</title>
+    <link rel="stylesheet" href="juego.css">
+    <script src="main.js" type="module"></script>
+    <script src="MemoryGame.js" type="module"></script>
+</head>
+
+<body>
+    <div id="desplegable" class="desplegable">
+        <div class="modal">
+            <h2>Bienvenido</h2>
+            <form id="nombreForm">
+                <label for="nombre">Introduce tu nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <button type="submit">Aceptar</button>
+            </form>
+        </div>
+    </div>
+    <section>
+        <div id="bienvenida"></div>
+    </section>
+    <section>
+        <div id="div1">
+            <input type="button" value="Reiniciar" id="reiniciar" />
+            Pares acertados<p id="paresAcertados"></p>
+            <img class="icono" src="https://cdn-icons-png.flaticon.com/128/1256/1256650.png">
+        </div>
+    </section>
+    <div id="banda">
+        <div id="mensaje" class="animate__animated animate__bounce">
+            <img class="icono" src="https://cdn-icons-png.flaticon.com/512/5220/5220037.png">
+            FELICIDADES!! Se acuerda de las caras de sus compañeros.
+            <img class="icono" src="https://cdn-icons-png.flaticon.com/512/5220/5220037.png">
+        </div>
+    </div>
+    <div id="div2">
+        <table id="mainTable">
+            <tr>
+                <td><img id="1" class="animate__animated animate__bounce" /></td>
+                <td><img id="2" class="animate__animated animate__bounce" /></td>
+                <td><img id="3" class="animate__animated animate__bounce" /></td>
+                <td><img id="4" class="animate__animated animate__bounce" /></td>
+            </tr>
+            <tr>
+                <td><img id="5" class="animate__animated animate__bounce" /></td>
+                <td><img id="6" class="animate__animated animate__bounce" /></td>
+                <td><img id="7" class="animate__animated animate__bounce" /></td>
+                <td><img id="8" class="animate__animated animate__bounce" /></td>
+            </tr>
+            <tr>
+                <td><img id="9" class="animate__animated animate__bounce" /></td>
+                <td><img id="10" class="animate__animated animate__bounce" /></td>
+                <td><img id="11" class="animate__animated animate__bounce" /></td>
+                <td><img id="12" class="animate__animated animate__bounce" /></td>
+            </tr>
+    </div>
+    </section>
+</body>
+
+</html>

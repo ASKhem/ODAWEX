@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Ejercicio3.css">
+    <title>Ejercicio3</title>
+</head>
+
+<body>
+    <h1>Menú de Clientes</h1>
+    <div id="form">
+        <input type="text" id="textoInput" placeholder="Provincia o Cuota">
+        <select id="opcion">
+            <option value="1">Mostrar todos los clientes</option>
+            <option value="2">Mostrar usuarios de una provincia</option>
+            <option value="3">Mostrar usuarios con cuota mayor</option>
+        </select>
+        </br>
+        <button id="inicio">Buscar</button>
+    </div>
+    <p id="mostrar"></p>
+    <div id="tabla"></div>
+
+    <script src="components/Cliente.js" type="module"></script>
+    <script src="components/index.js" type="module"></script>
+</body>
+
+</html>

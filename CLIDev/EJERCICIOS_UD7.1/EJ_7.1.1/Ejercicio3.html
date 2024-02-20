@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Ejercicio3.css">
+    <title>Ejercicio3</title>
+</head>
+
+<body>
+    <h1>Buscador de Clientes</h1>
+    <div id="contenedor-general">
+        <div id="form">
+            <div>
+                <button id="inicio"><img src="https://cdn-icons-png.flaticon.com/128/3542/3542003.png"></button>
+                <input type="text" id="textoInput" placeholder="Provincia o Cuota">
+                <select id="opcion">
+                    <option value="1">Mostrar todos los clientes</option>
+                    <option value="2">Mostrar usuarios de una provincia</option>
+                    <option value="3">Mostrar usuarios con cuota mayor</option>
+                </select>
+            </div>
+        </div>
+        <div id="resultados">
+            <p id="mostrar"></p>
+            <div id="tabla"></div>
+        </div>
+    </div>
+    <script src="components/index.js" type="module"></script>
+</body>
+
+</html>

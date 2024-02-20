@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UD8_video</title>
+</head>
+
+<body>
+    <a href="#">Ver video</a>
+    <script>
+        let contenido = `<video preload="auto" autoplay id="video1"><source src="song.mp4#t=29,55" type="video/mp4"></video>`
+        document.querySelector("a").addEventListener("click", function() {document.body.innerHTML = contenido;})
+    </script>
+</body>

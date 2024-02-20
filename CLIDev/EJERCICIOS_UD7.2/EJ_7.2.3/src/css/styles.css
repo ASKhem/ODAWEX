@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    gap: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    background-image: url("https://s1.1zoom.me/big7/932/Footbal_Fire_Stadium_Legs_Ball_Athletic_shoe_Lawn_563459_2560x1687.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 200px;
+}
+
+h1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 32, 70);
+    color: white;
+    height: 100px;
+    position: absolute;
+    z-index: 900;
+}
+
+select {
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.team-data {
+    width: 200px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+/* 
+#cr7{
+    width: 70px;
+    height: 90px;
+    border-radius: 0;
+} */
+
+
+#main-container{
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    gap: 20px;
+    background-color: rgba(0, 23, 97, 0.774);
+    border-radius: 30px;
+    line-height: 2;
+}
+
+#contenedor-supremo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #aaaaaaad;
+    position: absolute;
+}

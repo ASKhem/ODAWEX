@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Laura",
+        "localidad": "Santander",
+        "saldo": 50
+    },
+    {
+        "nombre": "Álvaro",
+        "localidad": "Castro",
+        "saldo": 50
+    },
+    {
+        "nombre": "Igor",
+        "localidad": "Castro",
+        "saldo": 60
+    },
+    {
+        "nombre": "Ivan",
+        "localidad": "Santander",
+        "saldo": 40
+    },
+    {
+        "nombre": "Mónica",
+        "localidad": "Zamora",
+        "saldo": 30
+    },
+    {
+        "nombre": "Javi",
+        "localidad": "Bilbao",
+        "saldo": 30
+    },
+    {
+        "nombre": "David",
+        "localidad": "Bilbao",
+        "saldo": 50
+    }
+]

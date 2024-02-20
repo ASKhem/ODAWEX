@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Disco.js" type="module"></script>
+    <script src="DiscoMenu.js" type="module"></script>
+    <link rel="stylesheet" href="Ejercicio4.css">
+    <title>Discos Manager</title>
+</head>
+
+<body>
+    <h1>Explorador de Discos</h1>
+    <div class="container">
+        <div class="section">
+            <div>
+                <div class="subDiv">
+                    <button id="inicio">Mostrar Número de Discos</button>
+                    <span id="mostrarN"></span>
+                </div>
+                <div class="subDiv">
+                    <h3>Mostrar Tabla Disco</h3>
+                    <label for="opcionTabla">Opción para mostrar la tabla:</label>
+                    <select id="opcionTabla">
+                        <option value="1">Tabla</option>
+                        <option value="2">Invertido</option>
+                        <optgroup label="Ordenado por:">
+                            <option value="3">Grupo</option>
+                            <option value="4">Disco</option>
+                        </optgroup>
+                    </select>
+                    <button id="actionShowTable">Mostrar</button>
+                </div>
+                <div class="subDiv">
+                    <h3>Mostrar Discos Publicados en un Intervalo de Años</h3>
+                    <label for="fecha">Fecha:</label>
+                    <input type="text" id="fecha" placeholder="yearBegin-YearEnd; Example: 2000-2023" />
+                    <button id="actionDiscosIntervalo">Buscar</button>
+                </div>
+            </div>
+            <div>
+                <div class="subDiv">
+                    <h3>Añadir un Disco</h3>
+                    <input type="text" id="añadirDisco" placeholder="Nombre, Grupo, Género, Año Publicación" />
+                    <label for="opcionAñadirDisco">Agregar al principio o al final:</label>
+                    <select id="opcionAñadirDisco">
+                        <option value="1">Al principio</option>
+                        <option value="2">Al final</option>
+                    </select>
+                    <button id="actionAñadirDisco">Añadir</button>
+                    <span id="discoAñadido"></span>
+                </div>
+                <div class="subDiv">
+                    <h3>Borrar un Disco</h3>
+                    <label for="opcionBorrarDisco">Borrar al principio o al final:</label>
+                    <select id="opcionBorrarDisco">
+                        <option value="1">Al principio</option>
+                        <option value="2">Al final</option>
+                    </select>
+                    <button id="actionBorrar">Borrar</button>
+                    <span id="discoBorrado"></span>
+                </div>
+                <div class="subDiv">
+                    <h3>Consultar Disco</h3>
+                    <input type="text" id="consultarDisco" placeholder="Nombre del Disco" />
+                    <button id="action">Consultar</button>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div id="table2">
+                <h3>Tabla Consulta</h3>
+                <span id="tablaConsulta"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

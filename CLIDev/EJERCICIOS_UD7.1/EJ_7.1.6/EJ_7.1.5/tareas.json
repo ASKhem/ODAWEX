@@ -1,0 +1,7 @@
+[
+    { "text": "Entregar la tarea", "estado": false },
+    { "text": "Hacer Ejercicio", "estado": false },
+    { "text": "Comprar comida", "estado": false},
+    { "text": "Estudiar", "estado": false},
+    { "text": "Hacer la cama", "estado": false}
+]
