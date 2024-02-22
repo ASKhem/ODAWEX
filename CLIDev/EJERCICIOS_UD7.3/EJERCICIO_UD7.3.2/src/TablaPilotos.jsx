@@ -1,80 +1,29 @@
 import { useState, useEffect } from 'react';
+import pilotosData from './pilotos.json';
 import Image from './Image';
 // import pilotos from './pilotos.json';
-const pilotos = [
-    {
-        "nombre": "Lewis Hamilton",
-        "equipo": "Mercedes",
-        "numero": 44,
-        "nacionalidad": "Reino Unido"
-    },
-    {
-        "nombre": "Max Verstappen",
-        "equipo": "Red Bull Racing",
-        "numero": 33,
-        "nacionalidad": "Países Bajos"
-    },
-    {
-        "nombre": "Charles Leclerc",
-        "equipo": "Ferrari",
-        "numero": 16,
-        "nacionalidad": "Mónaco"
-    },
-    {
-        "nombre": "Fernando Alonso",
-        "equipo": "Aston Martin",
-        "numero": 14,
-        "nacionalidad": "España"
-    },
-    {
-        "nombre": "Valtteri Bottas",
-        "equipo": "Mercedes",
-        "numero": 77,
-        "nacionalidad": "Finlandia"
-    },
-    {
-        "nombre": "Daniel Ricciardo",
-        "equipo": "McLaren",
-        "numero": 3,
-        "nacionalidad": "Australia"
-    },
-    {
-        "nombre": "Sergio Pérez",
-        "equipo": "Red Bull Racing",
-        "numero": 11,
-        "nacionalidad": "México"
-    },
-    {
-        "nombre": "Carlos Sainz",
-        "equipo": "Ferrari",
-        "numero": 55,
-        "nacionalidad": "España"
-    },
-    {
-        "nombre": "Lando Norris",
-        "equipo": "McLaren",
-        "numero": 4,
-        "nacionalidad": "Reino Unido"
-    },
-    {
-        "nombre": "Pierre Gasly",
-        "equipo": "AlphaTauri",
-        "numero": 10,
-        "nacionalidad": "Francia"
-    },
-    {
-        "nombre": "Esteban Ocon",
-        "equipo": "Alpine",
-        "numero": 31,
-        "nacionalidad": "Francia"
-    },
-];
-//cambiar a fetch la lectura del archivo json
 function TablaPilotos() {
     const [pagina, setPagina] = useState(0);
     const [pilotosPagina, setPilotosPagina] = useState([]);
+    const [pilotos, setPilotos] = useState([]);
+
+    // useEffect(() => {
+    //     async function fetchData() {
+    //         try {
+    //             const response = await fetch('./pilotos.json');
+    //             if (!response.ok) {
+    //                 throw new Error('No se pudo cargar los pilotos');
+    //             }
+    //             const pilotosData = await response.json();
+    //             setPilotos(pilotosData.pilotos);
+    //         } catch (error) {
+    //             console.error('Error al cargar la información:', error);
+    //         }
+    //     } fetchData();
+    // }, []);
 
     useEffect(() => {
+        setPilotos(pilotosData.pilotos);
         const paginas = [];
         for (let i = 0; i < pilotos.length; i++) {
             if (i % 3 === 0) {
@@ -83,7 +32,8 @@ function TablaPilotos() {
             paginas[paginas.length - 1].push(pilotos[i]);
         }
         setPilotosPagina(paginas);
-    }, []);
+    }, [pilotos]);
+    //si no
 
     const cambiarPagina = () => {
         if (pagina < pilotosPagina.length - 1) {

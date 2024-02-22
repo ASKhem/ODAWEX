@@ -1,7 +1,4 @@
-
-
 function Controllers() {
-
     return (
         <div id="controllersContainer">
             <div id="controles">
